@@ -19,6 +19,6 @@ jobs:
       with:
         github-token: ${{ secrets.TOKEN_ACTION }}
         git-message: 'chore(release): {version}'
-        preset: '@favoloso/emoji'
+        preset: 'eslint'
         tag-prefix: ''
         output-file: 'CHANGELOG.md'
